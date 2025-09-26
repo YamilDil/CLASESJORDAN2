@@ -1,0 +1,31 @@
+.padre{
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1{    
+    background-color: palevioletred;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+}
+.c2{
+    background-color: palevioletred;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+}
+.c3{
+    background-color: palevioletred;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+}
+.c4{
+    background-color: palevioletred;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+}
