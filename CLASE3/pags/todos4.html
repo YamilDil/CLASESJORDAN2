@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Todos Santos — Dato interesante</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="padre container-fluid">
+  <div class="menu">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">✨ Menú ✨</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">🏡 Principal</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">👹 Halloween</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Haloween1.html">📚 Historia</a></li>
+                <li><a class="dropdown-item" href="./Haloween2.html">🕸 Costumbres</a></li>
+                <li><a class="dropdown-item" href="./Haloween3.html">🍬 Gastronomía</a></li>
+                <li><a class="dropdown-item" href="./Haloween4.html">✨ Dato</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">🌼 Todos Santos</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./todos1.html">📖 Historia</a></li>
+                <li><a class="dropdown-item" href="./todos2.html">🌿 Costumbres</a></li>
+                <li><a class="dropdown-item" href="./todos3.html">🥮 Gastronomía</a></li>
+                <li><a class="dropdown-item" href="./todos4.html">✨ Dato</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="./Contactos.html">📬 Contactos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="contenido">
+    <h1> DATO INTERESANTE ✨</h1>
+
+    <!-- Collapse horizontal para el dato -->
+    <p>
+      <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        ✨ Click para conocer un dato
+      </button>
+    </p>
+
+    <div style="min-height: 120px;">
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body" style="width: 400px;">
+          <p class="logi">
+            En muchas regiones andinas la celebración de Todos Santos integra elementos prehispánicos: las
+            <strong>t'antawawas</strong> (panes en forma de muñecos) y las mesas con ofrendas se usan como un puente simbólico
+            para comunicar respeto y continuidad entre generaciones —no solo es memoria, también es reafirmar identidad cultural.
+          </p>
+          <p class="small text-muted">Esta mezcla de tradiciones muestra cómo las culturas se adaptan y preservan significado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ads">
+    <h2>📢publicidad📢</h2>
+    <img src="../img/image10.png" width="400" height="400" alt="ad">
+    <h2>🌐Enlaces a redes sociales 🌐</h2>
+    <ul class="social-list">
+      <li>
+        <a class="social-link" href="https://github.com/JhordanNEON617" target="_blank" rel="noopener noreferrer">
+          <span class="icon">🐱</span>
+          <div>
+            <div class="label">GitHub</div>
+            <small>@JhordanNEON617</small>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="social-link" href="https://instagram.com/JhordanJoel" target="_blank" rel="noopener noreferrer">
+          <span class="icon">📸</span>
+          <div>
+            <div class="label">Instagram</div>
+            <small>@JHORDANJHOEL</small>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="social-link" href="https://wa.me/5916825499" target="_blank" rel="noopener noreferrer">
+          <span class="icon">📱</span>
+          <div>
+            <div class="label">WhatsApp</div>
+            <small>Escríbeme un mensaje 💬</small>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="pie"><h4> Realizado por: Jhordan Jhoel Mamani Flores, 2025 </h4></div>
+  <div class="fog" aria-hidden="true"></div>
+  <div class="bat bat-1" aria-hidden="true">🦉</div>
+  <div class="bat bat-2" aria-hidden="true">🦉</div>
+  <div class="bat bat-3" aria-hidden="true">🦉</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+</body>
+</html>
